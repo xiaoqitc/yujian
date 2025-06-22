@@ -125,9 +125,6 @@ Thumbs.db
 *.zip
 *.tar.gz
 
-# SQLMap (if included)
-CN_Sqlmap-main/
-
 # Logs
 *.log
 logs/
@@ -148,30 +145,5 @@ secrets.json
 *.sqlite
 *.sqlite3
 
-# Logs
-*.log
-logs/
-
-# Project specific
-login_config.json
-*.exe
-*.app
-*.dmg
-*.deb
-*.rpm
-*.msi
-*.zip
-*.tar.gz
-
-# SQLMap (if included)
-CN_Sqlmap-main/
-
-# Logs
-*.log
-logs/
-
-# Temporary files
-temp/
-tmp/
-*.tmp
-*.temp 
+# Exclude build directory but keep CN_Sqlmap-main
+build/ 
