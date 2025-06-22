@@ -36,8 +36,8 @@
 
 1. 克隆仓库
    ```bash
-   git clone https://github.com/xiaoqitc/security-toolkit.git
-   cd security-toolkit
+   git clone https://github.com/xiaoqitc/yujian.git
+   cd yujian
    ```
 
 2. 安装依赖

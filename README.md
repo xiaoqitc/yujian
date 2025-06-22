@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/xiaoqitc/security-toolkit)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/xiaoqitc/yujian)
 
 > 一个功能强大的网络安全工具集合，专为安全研究人员、渗透测试人员和网络安全爱好者设计
 
@@ -156,8 +156,8 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/xiaoqitc/security-toolkit.git
-   cd security-toolkit
+   git clone https://github.com/xiaoqitc/yujian.git
+   cd yujian
    ```
 
 2. **安装依赖**
@@ -173,7 +173,7 @@
 #### 方法二：使用打包版本
 
 1. **下载发布版本**
-   - 访问 [Releases](https://github.com/xiaoqitc/security-toolkit/releases)
+   - 访问 [Releases](https://github.com/xiaoqitc/yujian/releases)
    - 下载对应系统的可执行文件
 
 2. **直接运行**
@@ -500,7 +500,7 @@ python build_exe.py
 ### 贡献方式
 
 1. **报告问题**
-   - 使用 [Issues](https://github.com/xiaoqitc/security-toolkit/issues) 报告Bug
+   - 使用 [Issues](https://github.com/xiaoqitc/yujian/issues) 报告Bug
    - 提供详细的错误信息和复现步骤
 
 2. **功能建议**
@@ -516,18 +516,18 @@ python build_exe.py
 
 ```bash
 # 克隆项目
-git clone https://github.com/xiaoqitc/security-toolkit.git
+git clone https://github.com/xiaoqitc/yujian.git
 
 # 创建虚拟环境
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
-# 安装开发依赖
-pip install -r requirements-dev.txt
+# 安装依赖
+pip install -r requirements.txt
 
-# 运行测试
-python -m pytest tests/
+# 运行程序
+python 御锋V1网络安全工具箱.py
 ```
 
 ### 代码规范
@@ -583,7 +583,7 @@ SOFTWARE.
 - **作者**: 小白
 - **微信**: ccyuwu8888
 - **QQ**: 1544185387
-- **邮箱**: your-email@example.com
+- **邮箱**: 1544185387@qq.com
 - **GitHub**: [@xiaoqitc](https://github.com/xiaoqitc)
 
 ## 🙏 致谢
@@ -597,10 +597,10 @@ SOFTWARE.
 
 ## 📈 项目统计
 
-![GitHub stars](https://img.shields.io/github/stars/xiaoqitc/security-toolkit)
-![GitHub forks](https://img.shields.io/github/forks/xiaoqitc/security-toolkit)
-![GitHub issues](https://img.shields.io/github/issues/xiaoqitc/security-toolkit)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/xiaoqitc/security-toolkit)
+![GitHub stars](https://img.shields.io/github/stars/xiaoqitc/yujian)
+![GitHub forks](https://img.shields.io/github/forks/xiaoqitc/yujian)
+![GitHub issues](https://img.shields.io/github/issues/xiaoqitc/yujian)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/xiaoqitc/yujian)
 
 ## 🔮 未来计划
 
