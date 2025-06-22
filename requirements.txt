@@ -1,0 +1,23 @@
+# 御锋V1网络安全工具箱依赖包
+
+# 网络请求和HTTP处理
+requests>=2.25.1
+urllib3>=1.26.0
+
+# 系统操作和进程管理
+psutil>=5.8.0
+
+# 打包工具（可选，用于生成exe）
+pyinstaller>=4.5.0
+auto-py-to-exe>=2.20.0
+
+# 开发工具（可选）
+pytest>=6.2.0
+black>=21.0.0
+flake8>=3.8.0
+
+# DNS解析
+dnspython
+
+# 加密
+pycryptodome 
